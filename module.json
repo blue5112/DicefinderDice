@@ -1,0 +1,63 @@
+{
+  "title": "Item Macro",
+  "description": "A module that allows macros to be stored in items and executed in various places.",
+  "version": "1.6.0",
+  "esmodules": [
+    "scripts/hooks.js"
+  ],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json",
+      "flags": {}
+    }
+  ],
+  "url": "https://github.com/Kekilla0/Item-Macro",
+  "manifest": "https://github.com/Kekilla0/Item-Macro/releases/download/1.6.0/module.json",
+  "download": "https://github.com/Kekilla0/Item-Macro/releases/download/1.6.0/module.zip",
+  "id": "itemacro",
+  "relationships": {
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system",
+        "compatibility": {}
+      },
+      {
+        "id": "sfrpg",
+        "type": "system",
+        "compatibility": {}
+      },
+      {
+        "id": "swade",
+        "type": "system",
+        "compatibility": {}
+      },
+      {
+        "id": "dungeonworld",
+        "type": "system",
+        "compatibility": {}
+      },
+      {
+        "id": "ose",
+        "type": "system",
+        "compatibility": {}
+      },
+      {
+        "id": "demonlord",
+        "type": "system",
+        "compatibility": {}
+      },
+      {
+        "id": "worldbuilding",
+        "type": "system",
+        "compatibility": {}
+      }
+    ]
+  },
+  "compatibility": {
+    "minimum": "0.8.8",
+    "verified": "9"
+  }
+}
