@@ -1,63 +1,23 @@
 {
-  "title": "Item Macro",
-  "description": "A module that allows macros to be stored in items and executed in various places.",
-  "version": "1.6.0",
-  "esmodules": [
-    "scripts/hooks.js"
+  "id": "dicefinder",
+  "title": "Dicefinder",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "11"
+  },
+  "scripts": [
+    "scripts/dicefinder.js"
   ],
-  "languages": [
-    {
-      "lang": "en",
-      "name": "English",
-      "path": "lang/en.json",
-      "flags": {}
-    }
-  ],
-  "url": "https://github.com/Kekilla0/Item-Macro",
-  "manifest": "https://github.com/Kekilla0/Item-Macro/releases/download/1.6.0/module.json",
-  "download": "https://github.com/Kekilla0/Item-Macro/releases/download/1.6.0/module.zip",
-  "id": "itemacro",
   "relationships": {
-    "systems": [
+    "requires": [
       {
-        "id": "dnd5e",
-        "type": "system",
-        "compatibility": {}
-      },
-      {
-        "id": "sfrpg",
-        "type": "system",
-        "compatibility": {}
-      },
-      {
-        "id": "swade",
-        "type": "system",
-        "compatibility": {}
-      },
-      {
-        "id": "dungeonworld",
-        "type": "system",
-        "compatibility": {}
-      },
-      {
-        "id": "ose",
-        "type": "system",
-        "compatibility": {}
-      },
-      {
-        "id": "demonlord",
-        "type": "system",
-        "compatibility": {}
-      },
-      {
-        "id": "worldbuilding",
-        "type": "system",
+        "id": "dice-so-nice",
+        "type": "module",
         "compatibility": {}
       }
     ]
-  },
-  "compatibility": {
-    "minimum": "0.8.8",
-    "verified": "9"
   }
+  "manifest": "https://github.com/blue5112/DicefinderDice/releases/latest/download/module.json",
+  "download": "https://github.com/blue5112/DicefinderDice/releases/latest/download/module.zip",
 }
