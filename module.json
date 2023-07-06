@@ -6,7 +6,7 @@
     "minimum": "11",
     "verified": "11"
   },
-  "esmodules": [
+  "scripts": [
     "scripts/dicefinder.js"
   ],
   "relationships": {
