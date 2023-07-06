@@ -14,9 +14,11 @@
       {
         "id": "dice-so-nice",
         "type": "module",
+        "manifest": "https://gitlab.com/riccisi/foundryvtt-dice-so-nice/-/raw/master/module/module.json",
         "compatibility": {}
       }
     ]
   }
   "download": "https://github.com/blue5112/DicefinderDice/releases/latest/download/module.zip",
+  "manifest": "https://github.com/blue5112/DicefinderDice/releases/latest/download/module.json",
 }
